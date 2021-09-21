@@ -1,9 +1,9 @@
 <template>
-    Florent
+    Yann
 </template>
 
 <script>
     export default {
-        name: 'Florent'
+        name: 'Yann'
     }
 </script>
