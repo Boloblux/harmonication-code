@@ -1,14 +1,20 @@
 <template>
+<div>
   <Nicolas />
+  <Sacha />
+
+</div>
 </template>
 
 <script>
 import Nicolas from './components/Nicolas.vue'
+import Sacha from './components/Sacha.vue'
 
 export default {
   name: 'App',
   components: {
-    Nicolas
+    Nicolas,
+    Sacha
   }
 }
 </script>
