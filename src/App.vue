@@ -1,14 +1,17 @@
 <template>
   <Nicolas />
+  <Florent />
 </template>
 
 <script>
 import Nicolas from './components/Nicolas.vue'
+import Florent from './components/Florent.vue'
 
 export default {
   name: 'App',
   components: {
-    Nicolas
+    Nicolas,
+    Florent
   }
 }
 </script>
