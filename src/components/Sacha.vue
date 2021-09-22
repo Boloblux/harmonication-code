@@ -1,8 +1,8 @@
 <template>
-<div>
-    <picture><img  style="width:10%" src="https://d1b50349hl2oei.cloudfront.net/img/logo/snc-mini.png" alt=""></picture>
-    <h2>Sacha Galeuzzi</h2>
-    <h3>Alternant - developpeur web chez Sports N'Connect</h3>
+<div class="container ">
+    <picture style="width:100%; display:flex; justify-content:center"><img  style="margin 0 auto; width:10%; " src="https://d1b50349hl2oei.cloudfront.net/img/logo/snc-mini.png" alt=""></picture>
+    <h2 style="text-align:center">Sacha Galeuzzi</h2>
+    <h3 style="text-align:center">Alternant - developpeur web chez Sports N'Connect</h3>
     
     
 </div>
@@ -12,6 +12,6 @@
 
 <script>
     export default {
-        name: 'Nicolas'
+        name: 'Sacha'
     }
 </script>
