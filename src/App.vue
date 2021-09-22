@@ -44,7 +44,6 @@
     import Sacha from './components/Sacha.vue'
     import Ahmed from './components/Ahmed.vue'
     import Florent from './components/Florent.vue'
-
     export default {
         name: 'App',
         components: {
@@ -60,7 +59,6 @@
             }
         },
         methods: {
-
             changeActive(tab) {
                 return this.activePage = tab
             },
