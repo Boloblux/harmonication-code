@@ -1,10 +1,10 @@
 <template>
-    <div>
+    <div class="container-Flo">
         <img src="../assets/Florent.jpg" alt="QuintinFlorent">
 
         <h1>Salut moi c'est Florent Quintin</h1>
 
-        <h2>J'aimerai bien dire que je suis dans une super alternance mais je suis toujours en recherche</h2>
+        <p>J'aimerai bien dire que je suis dans une super alternance mais je suis toujours en recherche</p>
     </div>
 </template>
 
@@ -16,10 +16,13 @@
 
 <style>
 img {
-    width : 300px;
+    width : 250px;
 }
 
-div{
-    display : center;
+.container-Flo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 </style>
